@@ -11,3 +11,6 @@ You can install it using Pip
 ```bash
 pip install pollinations
 ```
+
+Or install with git
+```
