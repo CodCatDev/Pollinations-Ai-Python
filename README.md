@@ -1,5 +1,5 @@
 # Pollinations-Ai-Python
-Python library, for working with [pollinations.ai][https://pollinations.ai/] !
+Not official Python library, for working with [pollinations.ai](https://pollinations.ai/)!
 
 # Installing
 ## THE LIBRARY IN DEVELOPMING!
@@ -8,3 +8,35 @@ You can install lib with pip
 ```bash
 pip install pollinations
 ```
+
+And using
+```python
+import pollinations
+```
+
+# Using
+
+### WARNING!
+### To use you need a api key from [auth.pollinations.ai](https://auth.pollinations.ai)
+
+## Text Generation
+
+```python
+import pollinations
+
+
+api_key = "" # Replace to you token
+
+ai = pollinations.Pollinations(api_key=api_key, type=pollinations.Type.Text)
+
+#Generate text
+
+result = ai.chat.message(
+    model="chatgpt4", # model id from ai.chat.models
+    prompt="Hello! Who are you??", # Messsage
+    system="You is a ChatGpt4 By OpenAi", #  instruction
+    history={}
+)
+
+# Print result
+print(result.message)
