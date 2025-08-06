@@ -1,4 +1,4 @@
-# CatAI-Reborn
-Cat Ai Telegram Bot with AI. Free
+# Pollinations Lib
+Python library, for working with pollinations.ai !
 
-## Привет
+## Installing
