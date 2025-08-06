@@ -1,6 +1,10 @@
-# Pollinations Lib
-Python library, for working with pollinations.ai !
+# Pollinations-Ai-Python
+Python library, for working with [pollinations.ai][https://pollinations.ai/] !
 
-## Installing
+# Installing
+## THE LIBRARY IN DEVELOPMING!
 
-# THE LIBRARY IS UNDER DEVELOPMENT!!!
+You can install lib with pip
+```bash
+pip install pollinations
+```
