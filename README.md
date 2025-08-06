@@ -1,5 +1,7 @@
 # Pollinations Ai Python
 
+This is a library for working with [Pollinations.Ai][https://pollinations.ai/] in Python
+
 ## This is not official library!
 
 # installing
