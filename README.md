@@ -40,3 +40,26 @@ result = ai.chat.message(
 
 # Print result
 print(result.message)
+```
+
+Text message return a json-object.
+```JSON
+{
+"message":"..",
+"api_key":"..",
+"temperature":0,
+"model":"..",
+"system":"..",
+"history":[
+..
+]
+}
+```
+
+And you using it
+
+```python
+result.message
+result.api_key
+..
+```
