@@ -51,7 +51,10 @@ Text message return a json-object.
 "model":"..",
 "system":"..",
 "history":[
-..
+ {
+  "role":"..",
+  "content":".."
+ }
 ]
 }
 ```
